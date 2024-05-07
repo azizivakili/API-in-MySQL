@@ -1,0 +1,11 @@
+{"Aircraft": "ZZE4012",
+    "FlightType": "A320",
+    "Origin": "El Dorado Int'l",
+    "Destination": "Jose Maria Cordova Int'l",
+    "Departure_Date": "04.03.2024",
+    "Departure_Time": "15:21",
+    "Arrival_Date": "04.03.2024",
+    "Arrival_Time": "15:59",
+    "EA_Time_Minutes": "38",
+    "RA_Time_Minutes": "97",
+    "Delay_Time": "59"}

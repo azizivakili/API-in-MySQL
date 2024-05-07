@@ -1,0 +1,17 @@
+
+# Verify API: 
+curl -X GET http://localhost:8000/verify/
+
+{"message":"API is functional"}% 
+
+
+
+# Get 
+curl -X GET \
+  -H "Authorization: Basic $(echo -n 'alice:wonderland' | base64)" \
+  "http://localhost:8000/get_mcqs?test_type=BDD&categories=Syst%C3%A8mes%20distribu%C3%A9s&BDD&num_questions=5"
+
+
+
+# Post:
+curl -X POST -u admin:4dm1N "http://localhost:8000/create_question?question=What+is+the+capital+of+France%3F&subject=Geography&test_type=General+Knowledge&correct=Paris&responseA=London&responseB=Paris&responseC=Berlin&responseD=Madrid&remark=Optional+remark"

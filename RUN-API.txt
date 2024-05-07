@@ -1,0 +1,6 @@
+1# Database should be created and imported via AirlineDB.json
+
+
+2# Then Run the API as following: 
+
+python3 -m uvicorn AirlineDB-API-Simple:app --reload
